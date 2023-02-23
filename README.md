@@ -11,5 +11,5 @@ La práctica consiste en extraer los datos de varias Playlists en Spotify en for
 - ETLs.ipynb: documento Jupyter Notebook donde está todo el desarrollo de la ETL.
 - mpd.slice.1000-1999.json: archivo .json con los datos a procesar.
 
-## Estructura Entidad-Relación:
+## Diagrama Entidad-Relación:
 ![Image text](https://github.com/dan-behar/Spotify_ETL/blob/main/DDLs/diagramaER.png)
