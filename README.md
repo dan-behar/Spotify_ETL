@@ -12,3 +12,4 @@ La práctica consiste en extraer los datos de varias Playlists en Spotify en for
 - mpd.slice.1000-1999.json: archivo .json con los datos a procesar.
 
 ## Estructura Entidad-Relación:
+![Image text](https://github.com/dan-behar/Spotify_ETL/blob/main/DDLs/diagramaER.png)
