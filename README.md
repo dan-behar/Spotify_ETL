@@ -1,15 +1,15 @@
 # Spotify_ETL
-La práctica consiste en extraer los datos de varias Playlists en Spotify en formato .json, aplicarle ciertas transformaciones para poder pasar los datos a un formato relacional con forma de estrella. Finalmente, los datos trabajados se cargan a una base de datos, que en este caso, fue Postgres. Mi base de datos fue un contenedor de Docker de Postgres y utilicé un docker-compose para levantar todo lo necesario.
+The practice involves extracting data from various Spotify playlists in .json format and applying certain transformations to convert the data into a star-shaped relational format. Finally, the processed data is loaded into a database, in this case, using Postgres. My database was a Postgres Docker container, and I used a docker-compose to set up everything that was needed.
 
-## Requisitos:
-- Tener docker instalado, corriendo y un Docker-compose (recomendado ya que hace todo el proceso).
-- Instalar las siguientes librerias en Python: pandas, numpy, json, psycopg2, pymysql y sqlalchemy.
+## Requirements:
+- Have Docker running and a docker-compose file.
+- Install the following Python libraries: pandas, numpy, json, psycopg2, pymysql y sqlalchemy.
 
-## Descripción de Directorios y archivos:
-- Carpeta DDLs: contiene los archivos .sql con la estructura de cada tabla y un Jupyter Notebook donde creé las estructuras en la base de datos.
-- docker-compose.yml: docker-compose donde levanté la base de datos y definí las formas de conexión.
-- ETLs.ipynb: documento Jupyter Notebook donde está todo el desarrollo de la ETL.
-- mpd.slice.1000-1999.json: archivo .json con los datos a procesar.
+## Directories and Files:
+- Carpeta DDLs: holds the .sql files with each table structure and a Jupyter notebook in which I created those structures in the Database.
+- docker-compose.yml: docker-compose to build the database and the connections.
+- ETLs.ipynb: jupyter notebook with the creation of the ETL.
+- mpd.slice.1000-1999.json: .json file with the raw data.
 
-## Diagrama Entidad-Relación:
+## Diagram of the Database:
 ![Image text](https://github.com/dan-behar/Spotify_ETL/blob/main/DDLs/diagramaER.png)
